@@ -2,8 +2,6 @@ package com.azzcs.singleton.register;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.Executor;
-import java.util.concurrent.Executors;
 
 /**
  * @Author: wzg

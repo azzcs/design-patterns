@@ -22,4 +22,13 @@ public class HungryStaticSingleton {
         return instance;
     }
 
+
+    public static void main(String[] args) {
+        for(int i = 0;i < 2;i++){
+            new Thread(() -> {
+                HungryStaticSingleton instance = HungryStaticSingleton.getInstance();
+                System.out.println(instance);
+            }).start();
+        }
+    }
 }
