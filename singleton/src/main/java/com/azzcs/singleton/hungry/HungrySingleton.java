@@ -1,7 +1,5 @@
 package com.azzcs.singleton.hungry;
 
-import com.azzcs.singleton.lazy.LazySimpleSingleton;
-
 /**
  * @Author: wzg
  * @Date: 2020/10/19 3:01 下午
